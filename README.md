@@ -9,12 +9,6 @@ External Go packages used:
 - Database (postgresql): [jackc/pgx](https://github.com/jackc/pgx)
 - Logging (rollbar): [rollbar](https://github.com/rollbar/rollbar-go)
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Development](#development)
-- [Contributing](#contributing)
-
 
 ## Getting started
 
