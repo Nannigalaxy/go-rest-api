@@ -41,3 +41,10 @@ Additionally to live-reload you can use [`air`](https://github.com/air-verse/air
 
 ## Contributing
 We welcome contributions to this project! If you find any bugs, have ideas for new features, or would like to improve the codebase, feel free to fork the repository and submit a pull request.
+
+## TODO
+- Add test framework
+- Add swagger docs
+- Fix nginx configuration
+- Add database migration tool
+- Add observability framework (e.g, OpenTelemetry)
