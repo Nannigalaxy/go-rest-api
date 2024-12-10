@@ -1,0 +1,24 @@
+version: "3.9"
+
+services:
+  go-rest-api:
+    build:
+      context: .
+    container_name: go-rest-api
+    ports:
+      - "3000:8080"
+    restart: always
+
+  # nginx:
+  #   image: nginx:latest
+  #   container_name: nginx
+  #   ports:
+  #     - "80:80"
+  #     # Uncomment for SSL
+  #     # - "443:443"
+  #   volumes:
+  #     - ./docker/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+  #     # - ./docker/nginx/ssl:/etc/nginx/ssl:ro # Uncomment for SSL
+  #   depends_on:
+  #     - go-rest-api
+  #   restart: always
